@@ -1,5 +1,5 @@
 .jobs_search {
-  padding: 0 20px;
+  padding: 0 30px;
 }
 /* ------------------------------------------------ */
 
@@ -280,8 +280,12 @@
   text-align: justify;
   border-radius: 10px;
 }
-@media (max-width:720px)
-{.about_company_modal {width: 350px;}}
+@media (max-width: 720px) {
+  .about_company_modal {
+    width: 350px;
+  }
+}
+.job_description_title{text-align: center;}
 /* ------------------------------------------------ */
 .minimum_salary {
   display: flex;
